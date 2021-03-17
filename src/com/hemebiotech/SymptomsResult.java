@@ -21,8 +21,9 @@ public class SymptomsResult {
 
 	/**
 	 * 
-	 * <b>SymptomsFileResult</b> puts the symptoms in alphabetical order and creates
-	 * a text file from the "sortedMap" dictionary <b> key: Value </b>
+	 * <b>SymptomsFileResult</b> put the elements of the dictionary (symptoms) in
+	 * alphabetical order and creates a text file from the "sortedMap" dictionary
+	 * <b> key: Value </b>
 	 * 
 	 * @param MyMap
 	 *                 <p>
@@ -49,12 +50,12 @@ public class SymptomsResult {
 	 */
 	public void SymptomsFileResult(Map<String, Integer> MyMap, String fileName, String encoding) {
 
-		SortedMap<String, Integer> sortedMap = new TreeMap<String, Integer>(Collator.getInstance(Locale.FRENCH));
+		SortedMap<String, Integer> sortedMap = new TreeMap<String, Integer>(Collator.getInstance(Locale.ENGLISH));
 
-		sortedMap.putAll(MyMap);
+		sortedMap.putAll(MyMap); // Puts the dictionary in alphabetical order
 
 		try {
-			PrintWriter writer = new PrintWriter(fileName, encoding);
+			PrintWriter writer = new PrintWriter(fileName, encoding);// create a new file
 
 			for (String mapkey : sortedMap.keySet()) {
 				writer.println(mapkey + ": " + sortedMap.get(mapkey));
