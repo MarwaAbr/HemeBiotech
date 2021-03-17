@@ -58,7 +58,7 @@ public class CounterSymptoms {
 			MyMap.put(elem, i);
 		}
 
-		SymptomsResult result = new SymptomsResult();// writing symptoms in alphabetical order
+		SymptomsWriteResult result = new SymptomsWriteResult();// writing symptoms in alphabetical order
 
 		result.SymptomsFileResult(MyMap, "result.out.txt", "UTF-8");
 		// "C:\\Users\\marwa\\eclipse-workspace\\HemebiotechRescue\\result.out.txt"
