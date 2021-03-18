@@ -17,7 +17,7 @@ import java.util.TreeMap;
  *         in alphabetical order and creates a text file that lists theme.
  *         </p>
  */
-public class SymptomsResult {
+public class SymptomsWriteResult {
 
 	/**
 	 * 
@@ -48,6 +48,7 @@ public class SymptomsResult {
 	 * 
 	 * 
 	 */
+
 	public void SymptomsFileResult(Map<String, Integer> MyMap, String fileName, String encoding) {
 
 		SortedMap<String, Integer> sortedMap = new TreeMap<String, Integer>(Collator.getInstance(Locale.ENGLISH));

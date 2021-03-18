@@ -27,22 +27,21 @@ import java.util.Set;
  * 
  */
 public class CounterSymptoms {
+	/**
+	 * Calls the ReadSymptoms class to read symptoms from "Symptoms.txt" and count
+	 * the occurrences, then calls the SymptomsResult class to put the symptoms in
+	 * alphabetical order and list them in a file "result.out".
+	 * 
+	 * @param args main program parameters
+	 * 
+	 * @see ReadSymptoms#ReadSymptoms(String)
+	 * 
+	 * @see ReadSymptoms#GetSymptoms()
+	 * 
+	 * @see SymptomsWriteResult#SymptomsFileResult(Map, String, String)
+	 */
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		/**
-		 * Calls the ReadSymptoms class to read symptoms from "Symptoms.txt" and count
-		 * the occurrences, then calls the SymptomsResult class to put the symptoms in
-		 * alphabetical order and list them in a file "result.out".
-		 * 
-		 * @param args main program parameters
-		 * 
-		 * @see ReadSymptoms#ReadSymptoms(String)
-		 * 
-		 * @see ReadSymptoms#GetSymptoms()
-		 * 
-		 * @see SymptomsResult#SymptomsFileResult(Map, String, String)
-		 */
 
 		ReadSymptoms Reads = new ReadSymptoms("Symptoms.txt"); // reading symptoms
 
