@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Simple brute force implementation
+ * Simplee brute force implementation
  * <p>
  * ReadSymptoms class allows to read a text file and list the lines of this file
  * (symptoms) in a list.

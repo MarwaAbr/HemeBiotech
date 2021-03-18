@@ -25,7 +25,7 @@ public class SymptomsWriteResult {
 	 * alphabetical order and creates a text file from the "sortedMap" dictionary
 	 * <b> key: Value </b>
 	 * 
-	 * @param MyMap
+	 * @param MyMapp
 	 *                 <p>
 	 *                 My dictionary
 	 *                 </p>

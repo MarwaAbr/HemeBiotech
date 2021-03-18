@@ -28,7 +28,7 @@ import java.util.Set;
  */
 public class CounterSymptoms {
 	/**
-	 * Calls the ReadSymptoms class to read symptoms from "Symptoms.txt" and count
+	 * Callss the ReadSymptoms class to read symptoms from "Symptoms.txt" and count
 	 * the occurrences, then calls the SymptomsResult class to put the symptoms in
 	 * alphabetical order and list them in a file "result.out".
 	 * 
